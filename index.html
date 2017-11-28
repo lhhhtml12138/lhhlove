@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/mui.min.css">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+  <header class="mui-bar mui-bar-nav lt-header">
+    <a class="mui-icon mui-icon-bars mui-pull-left mui-plus-visible"></a>
+    <a id="lt-search" class="lt-search fa fa-search mui-pull-right"></a>
+    <h1 class="mui-title">乐淘云购</h1>
+  </header>
+  <footer class="lt-footer mui-bar mui-bar-tab">
+    <a class="mui-item mui-active" href="">
+      <span class="fa fa-home"></span>
+      <span class="mui-tab-label">首页</span>
+    </a>
+    <a class="mui-item" href="./sort.html">
+      <span class="fa fa-bars"></span>
+      <span class="mui-tab-label">消息</span>
+    </a>
+    <a class="mui-item " href="">
+      <span class="fa fa-shopping-cart"></span>
+      <span class="mui-tab-label">通讯录</span>
+    </a>
+    <a class="mui-item" href="">
+      <span class="fa fa-user"></span>
+      <span class="mui-tab-label">设置</span>
+    </a>
+  </footer>
+  <div class="mui-content">
+    <div id="slider" class="mui-slider">
+      <div class="mui-slider-group mui-slider-loop">
+        <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+        <div class="mui-slider-item mui-slider-item-duplicate">
+          <a href="#">
+            <img src="./images/banner4.png">
+          </a>
+        </div>
+        <!-- 第一张 -->
+        <div class="mui-slider-item">
+          <a href="#">
+            <img src="./images/banner1.png">
+          </a>
+        </div>
+        <!-- 第二张 -->
+        <div class="mui-slider-item">
+          <a href="#">
+            <img src="./images/banner2.png">
+          </a>
+        </div>
+        <!-- 第三张 -->
+        <div class="mui-slider-item">
+          <a href="#">
+            <img src="./images/banner3.png">
+          </a>
+        </div>
+        <!-- 第四张 -->
+        <div class="mui-slider-item">
+          <a href="#">
+            <img src="./images/banner4.png">
+          </a>
+        </div>
+        <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+        <div class="mui-slider-item mui-slider-item-duplicate">
+          <a href="#">
+            <img src="./images/banner1.png">
+          </a>
+        </div>
+      </div>
+      <div class="mui-slider-indicator">
+        <div class="mui-indicator mui-active"></div>
+        <div class="mui-indicator"></div>
+        <div class="mui-indicator"></div>
+        <div class="mui-indicator"></div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/mui.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

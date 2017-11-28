@@ -1,0 +1,62 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-25 20:19:02
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-25 20:58:15
+*/
+.add-address {
+	width: 100%;
+	position: absolute;
+	top: 43px;
+	left: 0;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	/* border: 1px solid red; */
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+.add-address a {
+	color: #323534;
+	font-size: 16px;
+}
+
+.add-info {
+	width: 100%;
+	position: absolute;
+	top: 88px;
+	left: 0;
+	/* height:130px; */
+	/* line-height: 45px;
+ */	text-align: left;
+	/* border: 1px solid red; */
+	background-color: #fff;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+	
+}
+.add-left {
+	margin-left: 10px;
+}
+.add-left p {
+	color: #323534;
+/* 
+	line-height: 20px; */
+}
+.add-left a{
+
+	float: left;
+	width: 75%;
+	/* border: 1px solid red; */
+	
+	color: #ccc;
+	font-size: 16px;
+}
+.add-right {
+	float: right;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	color: #ccc;
+}

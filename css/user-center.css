@@ -1,0 +1,79 @@
+/*
+* @Author: huangdeyaosi
+* @Date:   2017-11-27 20:43:15
+* @Last Modified by:   huangdeyaosi
+* @Last Modified time: 2017-11-27 21:57:27
+*/
+body{
+	background-color: #f0eff3;
+}
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.mui-bar-tab~.mui-content{
+	padding-bottom: 0;
+}
+.user ul{
+	width: 100%;
+	border-bottom: 1px solid #dddbdb;
+	padding-left: 15px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.user ul li{
+	width: 100%;
+	position: relative;
+}
+.user ul li+li .fa-angle-right{
+	position: absolute;
+	right: 20px;
+	top: 16px;
+	font-size: 10px;
+	color: #bfc2cf;
+}
+.user ul li:nth-child(1){
+	height: 63px;
+}
+.user ul li:nth-child(1) .first{
+	position: absolute;
+	top: 12px;
+	left: 0;
+	font-size: 39px;
+}
+.user ul li:nth-child(1) .user{
+	position: absolute;
+	font-size: 12px;
+	color: #000;
+	top: 10px;
+	left: 68px;
+}
+.user ul li:nth-child(1) .pn{
+	position: absolute;
+	font-size: 12px;
+	color: #8f8d8d;
+	top: 31px;
+	left: 68px;
+}
+.user ul li:nth-child(1) .next{
+	position: absolute;
+	font-size: 10px;
+	color: #bfc2cf;
+	top: 26.5px;
+	right: 20px;
+
+}
+.user ul li+li{
+	height: 42px;
+	line-height: 42px;
+	border-top: 1px solid #dddbdb;
+	font-size: 15px;
+}
+.login-out{
+	background-color: #fff;
+	height: 31px;
+	font-size: 12px;
+	line-height: 31px;
+	text-align: center;
+	border-radius: 3px;
+	margin: 20px 11px 0px 10px;
+}

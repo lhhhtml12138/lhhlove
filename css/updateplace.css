@@ -1,0 +1,85 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-28 08:18:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-28 08:31:25
+*/
+body {
+	height: 249px;
+	/* background-color: #ccc; */
+}
+.mui-content{
+	background-color: #fff;
+	height: 100%;
+}
+.name input {
+	border: 1px solid #d0cdc7;
+}
+.name {
+	/* margin-top: 50px; */
+	position: absolute;
+	top: 50px;
+	left: 5%;
+	width: 90%;
+	height: 40px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.num input {
+	border: 1px solid #d0cdc7;
+}
+.num {
+	/* margin-top: 50px; */
+	position: absolute;
+	top: 100px;
+	left: 5%;
+	width: 90%;
+	height: 40px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+
+.place input {
+	border: 1px solid #d0cdc7;
+}
+.place {
+	/* margin-top: 50px; */
+	position: absolute;
+	top: 150px;
+	left: 5%;
+	width: 90%;
+	height: 40px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.xj {
+		position: absolute;
+	top: 200px;
+	left: 5%;
+	width: 90%;
+	height: 20px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.xj textarea {
+	height: 100px;
+}
+
+.book {
+	width: 100%;
+	background-color: #fff;
+	position: relative;
+}
+.book-btn {
+	width:90%;
+	height: 50px;
+	position: absolute;
+	top: 80px;
+	left: 5%;
+	right: 5%;
+	background-color: #0c7afe;
+	color: #fff;
+}

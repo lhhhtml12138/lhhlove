@@ -1,0 +1,123 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-25 21:30:20
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-26 17:45:50
+*/
+body,html {
+	/* overflow-y: hidden; */
+}
+
+ .img {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before {
+	font-size: 15px;
+}
+.mui-checkbox input[type=checkbox], .mui-radio input[type=radio] {
+	top: 90px;
+}
+.mui-input-group .mui-input-row {
+	height: 120px;
+}
+
+/* 鞋子名字盒子 */
+.mui-checkbox.mui-left label, .mui-radio.mui-left label {
+	padding-right: 10px;
+	padding-left: 111px;
+	padding-top: 20px;
+	font-size: 10px;
+	
+
+	
+}
+.mui-left label p {
+	width: 100%;
+	 /* 多行出现省略号 记住 */
+      overflow: hidden;
+      /* webkit-box就是display:flex的旧语法 */
+      display: -webkit-box;
+      /* 类似于flex-direction   */
+      -webkit-box-orient: vertical;
+      /* 控制内容显示几行 */
+      -webkit-line-clamp: 2;
+
+}
+
+.lab-price {
+	position: absolute;
+	bottom: 36px;
+	left: 112px;
+	font-size: 10px;
+	width: 80%;
+
+}
+.lab-price span:nth-child(1) {
+	color: #ff0000;
+}
+.lab-price span:nth-child(2) {
+	text-decoration: line-through;
+	color: #dddbdb;
+}
+.lab-price span:nth-child(3) {
+	width: 20%;
+	position: absolute;
+	right: 40px;
+
+}
+.lab-price p {
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+}
+
+/* 提交订单 */
+.all-price {
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	bottom: 50px;
+	background-color: #fff;
+}
+.all-price span {
+	display: block;
+	width: 70%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10%;
+	color: #ff0000;
+	font-weight: 550;
+}
+
+.all-price a {
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	line-height: 40px;
+	display: block;
+	width: 30%;
+	height: 40px;
+	background-color: #ff0000;
+	color: #fff;
+}
+.fa {
+
+ 
+ 
+    position: absolute;
+    right: 4px;
+    top: 48px;
+    color: #dddbdb;
+}
+.fa-arrow-left:before {
+    content: "";
+}
+
+.fa-refresh:before {
+	content: "";
+}
